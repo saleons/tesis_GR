@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_2921480a5b11a095a2c94edf10f76bfd {
+                #map_7ae9ed2854dda2bbda580abd35015966 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -34,15 +34,15 @@
         
 </head>
 <body>    
-    <h1 class='text-center'> SISTEMA DE GESTION DE RIESGOS</h1><h2 class='text-center'> vereda granizal</h2><div class='btn-group'><a href='/pagina2'class='btn btn-primary active' aria-current='page'>Iniciar session</a><a href='loggin.html' class='btn btn-primary'>Link</a><a href='#' class='btn btn-primary'>Link</a></div>
+    <h2 class='text-center'> vereda granizal</h2><h3 class='text-center'> vereda granizal</h3><div class='btn-group'><a href='/pagina2'class='btn btn-primary active' aria-current='page'>Iniciar session</a><a href='loggin.html' class='btn btn-primary'>Link</a><a href='#' class='btn btn-primary'>Link</a></div>
     
-            <div class="folium-map" id="map_2921480a5b11a095a2c94edf10f76bfd" ></div>
+            <div class="folium-map" id="map_7ae9ed2854dda2bbda580abd35015966" ></div>
         
 </body>
 <script>    
     
-            var map_2921480a5b11a095a2c94edf10f76bfd = L.map(
-                "map_2921480a5b11a095a2c94edf10f76bfd",
+            var map_7ae9ed2854dda2bbda580abd35015966 = L.map(
+                "map_7ae9ed2854dda2bbda580abd35015966",
                 {
                     center: [-11.010444, -76.111489],
                     crs: L.CRS.EPSG3857,
@@ -56,35 +56,35 @@
 
         
     
-            var tile_layer_bf3ff384bfd8e230c766cf5ecec9d15e = L.tileLayer(
+            var tile_layer_0007d99f111e96bcdc5e953f420363ed = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_2921480a5b11a095a2c94edf10f76bfd);
+            ).addTo(map_7ae9ed2854dda2bbda580abd35015966);
         
     
-            var feature_group_f1e9d86eb3b48421f8af1d29c8a1ce09 = L.featureGroup(
+            var feature_group_91e5fac08cc793c74388e5cf21c7299d = L.featureGroup(
                 {}
-            ).addTo(map_2921480a5b11a095a2c94edf10f76bfd);
+            ).addTo(map_7ae9ed2854dda2bbda580abd35015966);
         
     
-            var marker_6e290bb925c8d63a7c49e4aaa4aa4fcf = L.marker(
+            var marker_3c3b16d7bea79bcec15169c601c44efe = L.marker(
                 [-11.010444, -76.111489],
                 {}
-            ).addTo(feature_group_f1e9d86eb3b48421f8af1d29c8a1ce09);
+            ).addTo(feature_group_91e5fac08cc793c74388e5cf21c7299d);
         
     
-            var layer_control_0855402dd1cf81d0bae0b74945397ee0 = {
+            var layer_control_4c23ca5f523d4a11fe4daff487b2076f = {
                 base_layers : {
-                    "openstreetmap" : tile_layer_bf3ff384bfd8e230c766cf5ecec9d15e,
+                    "openstreetmap" : tile_layer_0007d99f111e96bcdc5e953f420363ed,
                 },
                 overlays :  {
-                    "lago Chinchaicocha" : feature_group_f1e9d86eb3b48421f8af1d29c8a1ce09,
+                    "lago Chinchaicocha" : feature_group_91e5fac08cc793c74388e5cf21c7299d,
                 },
             };
             L.control.layers(
-                layer_control_0855402dd1cf81d0bae0b74945397ee0.base_layers,
-                layer_control_0855402dd1cf81d0bae0b74945397ee0.overlays,
+                layer_control_4c23ca5f523d4a11fe4daff487b2076f.base_layers,
+                layer_control_4c23ca5f523d4a11fe4daff487b2076f.overlays,
                 {"autoZIndex": true, "collapsed": true, "position": "topright"}
-            ).addTo(map_2921480a5b11a095a2c94edf10f76bfd);
+            ).addTo(map_7ae9ed2854dda2bbda580abd35015966);
         
 </script>
