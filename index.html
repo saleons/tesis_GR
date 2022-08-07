@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_267b19d47241125f55f1184501fcbf25 {
+                #map_2921480a5b11a095a2c94edf10f76bfd {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -36,13 +36,13 @@
 <body>    
     <h1 class='text-center'> SISTEMA DE GESTION DE RIESGOS</h1><h2 class='text-center'> vereda granizal</h2><div class='btn-group'><a href='/pagina2'class='btn btn-primary active' aria-current='page'>Iniciar session</a><a href='loggin.html' class='btn btn-primary'>Link</a><a href='#' class='btn btn-primary'>Link</a></div>
     
-            <div class="folium-map" id="map_267b19d47241125f55f1184501fcbf25" ></div>
+            <div class="folium-map" id="map_2921480a5b11a095a2c94edf10f76bfd" ></div>
         
 </body>
 <script>    
     
-            var map_267b19d47241125f55f1184501fcbf25 = L.map(
-                "map_267b19d47241125f55f1184501fcbf25",
+            var map_2921480a5b11a095a2c94edf10f76bfd = L.map(
+                "map_2921480a5b11a095a2c94edf10f76bfd",
                 {
                     center: [-11.010444, -76.111489],
                     crs: L.CRS.EPSG3857,
@@ -56,35 +56,35 @@
 
         
     
-            var tile_layer_96e473b2102bfed284d1f5893d1631be = L.tileLayer(
+            var tile_layer_bf3ff384bfd8e230c766cf5ecec9d15e = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_267b19d47241125f55f1184501fcbf25);
+            ).addTo(map_2921480a5b11a095a2c94edf10f76bfd);
         
     
-            var feature_group_084f7e7b7aad9fb9d3857669a4ce13ca = L.featureGroup(
+            var feature_group_f1e9d86eb3b48421f8af1d29c8a1ce09 = L.featureGroup(
                 {}
-            ).addTo(map_267b19d47241125f55f1184501fcbf25);
+            ).addTo(map_2921480a5b11a095a2c94edf10f76bfd);
         
     
-            var marker_9c5449aefdb737de1fab8c328461e60f = L.marker(
+            var marker_6e290bb925c8d63a7c49e4aaa4aa4fcf = L.marker(
                 [-11.010444, -76.111489],
                 {}
-            ).addTo(feature_group_084f7e7b7aad9fb9d3857669a4ce13ca);
+            ).addTo(feature_group_f1e9d86eb3b48421f8af1d29c8a1ce09);
         
     
-            var layer_control_5aebee364983d1e54aed3108ebfb6701 = {
+            var layer_control_0855402dd1cf81d0bae0b74945397ee0 = {
                 base_layers : {
-                    "openstreetmap" : tile_layer_96e473b2102bfed284d1f5893d1631be,
+                    "openstreetmap" : tile_layer_bf3ff384bfd8e230c766cf5ecec9d15e,
                 },
                 overlays :  {
-                    "lago Chinchaicocha" : feature_group_084f7e7b7aad9fb9d3857669a4ce13ca,
+                    "lago Chinchaicocha" : feature_group_f1e9d86eb3b48421f8af1d29c8a1ce09,
                 },
             };
             L.control.layers(
-                layer_control_5aebee364983d1e54aed3108ebfb6701.base_layers,
-                layer_control_5aebee364983d1e54aed3108ebfb6701.overlays,
+                layer_control_0855402dd1cf81d0bae0b74945397ee0.base_layers,
+                layer_control_0855402dd1cf81d0bae0b74945397ee0.overlays,
                 {"autoZIndex": true, "collapsed": true, "position": "topright"}
-            ).addTo(map_267b19d47241125f55f1184501fcbf25);
+            ).addTo(map_2921480a5b11a095a2c94edf10f76bfd);
         
 </script>
